@@ -14,5 +14,10 @@ public class MathOperation {
     {
         return operand1 - operand2;
     }
+    public static int sumOfIntegers(int n){
+        int total=0;
+        for(int k=0;k<=n;k++) total += k;
+        return total;
+    }
 
 }
